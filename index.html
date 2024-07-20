@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expandable List and Query</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>దశా ప్రమాణం</h1>
+        <div class="dropdown-container">
+            <select id="dropdown1"></select>
+            <select id="dropdown2"></select>
+            <select id="dropdown3"></select>
+            <select id="dropdown4"></select>
+            <button onclick="processQuery()">Process</button>
+        </div>
+        <div id="output"></div>
+        <div class="expandable-container">
+            <ul id="positions-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
